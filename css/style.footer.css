@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: table;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
+}
+.footer {
+    background: gainsboro;
+    width: 100%;
+    height: 40px;
+}
+.ftext {
+    vertical-align: middle ;
+    font-size: 150%;
+    color: gray;
+}
